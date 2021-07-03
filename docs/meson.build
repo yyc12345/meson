@@ -30,6 +30,7 @@ documentation = hotdoc.generate_doc(meson.project_name(),
     git_upload_repository: 'git@github.com:mesonbuild/mesonbuild.github.io.git',
     edit_on_github_repository: 'https://github.com/mesonbuild/meson',
     syntax_highlighting_activate: true,
+    fatal_warnings: true,
 )
 
 run_target('upload',
